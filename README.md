@@ -288,21 +288,22 @@
         const buttonsContainer = document.querySelector('.buttons');
 
         const sorryMessages = [
-            "I'm really sorry babe ❤️<br>Please forgive me 🥺",
-            "I promise I'll never do it again 😢💕",
-            "You mean the world to me 🌍💖",
-            "I can't stop thinking about how sorry I am 😭",
-            "Please give me another chance 🙏❤️",
+            "I'm really sorry tannnniiiii ❤️<br>Please forgive me baby pleaseeeee 🥺",
+            "I promise I'll never do it again babe 😢💕",
+            "You mean the world to me 🌍💖 and will always mean the world to me darling",
+            "I can't stop thinking about how sorry I am tannistha😭",
+            "Please give me another chance babe i will not disappoint you again 🙏❤️",
             "I'll do anything to make it up to you 💝",
             "You're the most important person to me 🥰",
-            "I messed up, but I love you so much 💕😔",
-            "Life isn't the same without your smile 😢💖",
+            "I messed up, but I love you so much my sweetheart 💕😔",
+            "Life isn't the same without you babe i feel so lonely 😢💖",
             "I promise to be better for you 🌟❤️",
-            "Forgive me please? I'll buy you ice cream 🍦💕",
+            "Forgive me please? I'll buy you lichis and kinderjoy babeee🍊🍊🍊💕",
             "I'm so so so sorry baby 😭❤️",
             "You deserve the world and I'll give it to you 🌹💖",
             "Pretty please with a cherry on top? 🍒🥺",
             "I'll never let you down again, I promise 💍❤️"
+            "COMEBACK TANNISTHA FOLLOW ME BACK AND LETS SORT IT OUT DARLING PLEASE😣"
         ];
 
         let currentMessageIndex = 0;
@@ -407,11 +408,11 @@
                 setTimeout(() => mainText.classList.remove('shake'), 500);
                 
                 if (noClickCount <= 5) {
-                    clickCount.innerHTML = `Come on... just click YES! 🥺 (Attempts: ${noClickCount})`;
+                    clickCount.innerHTML = `Come on... just click YES! CLICK IT !!!!!! 🥺 (Attempts: ${noClickCount})`;
                 } else if (noClickCount <= 10) {
-                    clickCount.innerHTML = `Please baby! I'm begging you! 😭 (Attempts: ${noClickCount})`;
+                    clickCount.innerHTML = `Please baby! I'm begging you tannisthaaaa! 😭 (Attempts: ${noClickCount})`;
                 } else {
-                    clickCount.innerHTML = `I can do this all day! 💪❤️ (Attempts: ${noClickCount})`;
+                    clickCount.innerHTML = `I can do this all day for yoy my love! 💪❤️ (Attempts: ${noClickCount})`;
                 }
                 
                 createHeart();
@@ -444,10 +445,10 @@
 
         // Handle Yes button click
         yesBtn.addEventListener('click', function() {
-            mainText.innerHTML = "Yay! You forgave me! 😍💖🥳";
+            mainText.innerHTML = "Yayyyyyyyy babyyyyyyyy!!!!!!! You forgave me! 😍💖🥳";
             emojiContainer.innerHTML = "😊❤️💃🎉✨🥰💕🌟🎊💖🌹😘";
             emojiContainer.classList.remove('hidden');
-            clickCount.innerHTML = "I LOVE YOU SO MUCH! ❤️❤️❤️";
+            clickCount.innerHTML = "OMFGGGGGG TANNISHTHAAAAAAAA I LOVE YOU SO MUCH! ❤️❤️❤️";
             buttonsContainer.style.display = 'none';
 
             for (let i = 0; i < 30; i++) {
